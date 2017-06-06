@@ -12,6 +12,13 @@
 		CB0ED6661EE65A570059B510 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB0ED6641EE65A570059B510 /* Main.storyboard */; };
 		CB0ED6681EE65A570059B510 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB0ED6671EE65A570059B510 /* Assets.xcassets */; };
 		CB0ED66B1EE65A570059B510 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB0ED6691EE65A570059B510 /* LaunchScreen.storyboard */; };
+		CB0ED6731EE65B590059B510 /* DangNhap.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0ED6721EE65B590059B510 /* DangNhap.swift */; };
+		CB0ED6761EE65EAA0059B510 /* anhnen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB0ED6751EE65EAA0059B510 /* anhnen.jpg */; };
+		CB0ED6781EE668B80059B510 /* dangNhap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB0ED6771EE668B80059B510 /* dangNhap.jpg */; };
+		CB12AF4D1EE69FB400C4D418 /* ToanTreEm.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB12AF4C1EE69FB400C4D418 /* ToanTreEm.swift */; };
+		CBF2695D1EE6E4C300746659 /* con meo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBF2695C1EE6E4C300746659 /* con meo.jpg */; };
+		CBF2695F1EE6E53F00746659 /* bang.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBF2695E1EE6E53F00746659 /* bang.jpg */; };
+		CBF269611EE6E62400746659 /* note.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBF269601EE6E62400746659 /* note.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		CB0ED6671EE65A570059B510 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB0ED66A1EE65A570059B510 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB0ED66C1EE65A570059B510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB0ED6721EE65B590059B510 /* DangNhap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DangNhap.swift; sourceTree = "<group>"; };
+		CB0ED6751EE65EAA0059B510 /* anhnen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = anhnen.jpg; sourceTree = "<group>"; };
+		CB0ED6771EE668B80059B510 /* dangNhap.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dangNhap.jpg; sourceTree = "<group>"; };
+		CB12AF4C1EE69FB400C4D418 /* ToanTreEm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToanTreEm.swift; sourceTree = "<group>"; };
+		CBF2695C1EE6E4C300746659 /* con meo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "con meo.jpg"; sourceTree = "<group>"; };
+		CBF2695E1EE6E53F00746659 /* bang.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bang.jpg; sourceTree = "<group>"; };
+		CBF269601EE6E62400746659 /* note.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = note.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +68,29 @@
 		CB0ED65F1EE65A560059B510 /* PushPopView */ = {
 			isa = PBXGroup;
 			children = (
+				CB0ED6741EE65E8D0059B510 /* ảnh */,
 				CB0ED6601EE65A560059B510 /* AppDelegate.swift */,
 				CB0ED6621EE65A570059B510 /* ViewController.swift */,
+				CB0ED6721EE65B590059B510 /* DangNhap.swift */,
+				CB12AF4C1EE69FB400C4D418 /* ToanTreEm.swift */,
 				CB0ED6641EE65A570059B510 /* Main.storyboard */,
 				CB0ED6671EE65A570059B510 /* Assets.xcassets */,
 				CB0ED6691EE65A570059B510 /* LaunchScreen.storyboard */,
 				CB0ED66C1EE65A570059B510 /* Info.plist */,
 			);
 			path = PushPopView;
+			sourceTree = "<group>";
+		};
+		CB0ED6741EE65E8D0059B510 /* ảnh */ = {
+			isa = PBXGroup;
+			children = (
+				CBF2695C1EE6E4C300746659 /* con meo.jpg */,
+				CB0ED6771EE668B80059B510 /* dangNhap.jpg */,
+				CBF269601EE6E62400746659 /* note.jpg */,
+				CBF2695E1EE6E53F00746659 /* bang.jpg */,
+				CB0ED6751EE65EAA0059B510 /* anhnen.jpg */,
+			);
+			name = "ảnh";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +154,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB0ED66B1EE65A570059B510 /* LaunchScreen.storyboard in Resources */,
+				CB0ED6761EE65EAA0059B510 /* anhnen.jpg in Resources */,
+				CB0ED6781EE668B80059B510 /* dangNhap.jpg in Resources */,
 				CB0ED6681EE65A570059B510 /* Assets.xcassets in Resources */,
 				CB0ED6661EE65A570059B510 /* Main.storyboard in Resources */,
+				CBF269611EE6E62400746659 /* note.jpg in Resources */,
+				CBF2695F1EE6E53F00746659 /* bang.jpg in Resources */,
+				CBF2695D1EE6E4C300746659 /* con meo.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +171,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB0ED6731EE65B590059B510 /* DangNhap.swift in Sources */,
+				CB12AF4D1EE69FB400C4D418 /* ToanTreEm.swift in Sources */,
 				CB0ED6631EE65A570059B510 /* ViewController.swift in Sources */,
 				CB0ED6611EE65A560059B510 /* AppDelegate.swift in Sources */,
 			);
@@ -304,6 +340,7 @@
 				CB0ED6711EE65A570059B510 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
